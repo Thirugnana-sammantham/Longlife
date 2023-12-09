@@ -1,0 +1,303 @@
+*{
+    /* text-decoration: none; */
+    margin: 0;
+    /* font-family: arial; */
+    /* border: border-box; */
+}
+body{
+    background-color: rgb(240, 185, 226); 
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+  
+    display: flex;
+    height: 60px;
+    background-color: rgb(233, 164, 231);
+   color: white;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.nav-logo1{
+    
+    background-image: url(longlife.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+.location{
+    margin-left: 30px;
+}
+.very{
+    font-weight: 700;
+}
+.search-bar{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(232, 240, 81);
+    margin-left: 1em;
+    border-radius: 5px;
+    
+}
+.cont{
+    
+    width: 50px;
+    background-color:rgb(236, 222, 222);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px ;
+    border: none;
+    
+}
+.holder{
+    width: 100%;
+    border: none;
+
+
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 234, 159);
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    border: none;
+    width: 45px;
+    font-size: 20px;
+}
+.account{
+    font-weight: 700;
+}
+.cart{
+    font-weight: 700;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.breakfast{
+    height: 150px;
+    width: 98.3%;
+    background-image: url(footer\ \(2\).jpg);
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+    border-left: 20px solid white;
+}
+.bacground{
+    background-image: url(teahub.io-vegetable-wallpaper-hd-3057306.jpg);
+    height: 400px;
+    background-size: cover;
+    /* -webkit-mask-image: linear-gradient(black,transparent);
+    mask-image :linear-gradient(black,transparent); */
+   
+}
+.overlay{
+    height: 300px;
+    width: 220px;
+    color: white;
+    font-size: 40px;  
+    left: 35%;
+    position: absolute;
+    bottom: 10%;
+   
+  
+    
+}
+.overlay h1{
+    font-family: cursive;
+    text-shadow: 3px 3px rgb(45, 187, 223);
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px 15px;
+    margin-top:15px ;
+    border-radius: 10px;
+    
+    
+    
+}
+.boximg{
+    height: 300px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   border: 3px solid rgb(219, 133, 202);
+   
+
+}
+.head i{
+    position: relative;
+    bottom: 15px;
+    float: right;
+    font-size: 20px;
+}
+
+.head{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Smoothies{
+    height: 150px;
+    width: 98.3%;
+    background-image: url(footer\ \(2\).jpg);
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+    border-left: 20px solid white;
+    margin-top: 20px;
+}
+.sug img{
+    height: 300px;
+    width: 300px;
+    float: right;
+    
+    
+}
+.nat img{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 300px;
+    margin-left: 60%;
+    
+    
+    
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    
+    
+}
+.circle1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.circle2{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.circle3{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.circle4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.circle h1{
+    margin-left: 210px;
+    color: white;
+    margin-top: 75px;
+    
+}
+.circle2{
+   margin-left: 500px;
+}
+.circle4{
+    margin-left: 500px;
+}
+
+/* footer */
+.back{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 42, 73);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back p{
+    
+    color: white;
+}
+.foot{
+    background-image: url(footer.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    color: black;
+    opacity: 3;
+}
+.contact{
+    height: 534px;
+    width: 30%;
+    
+}
+.policies{
+    height: 534px;
+    width:30% ;
+
+}
+.story{
+    height: 534px;
+    width: 30%;
+    
+}
+.story p{
+   line-height: 1.9;
+}
+button{
+    height: 45px;
+    border: 2px solid white;
+    background-color: rgb(48, 48, 231);
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+}
+.follow{
+    margin-top: 50px;
+    color: white;
+}
+.icons{
+    margin-left: 30px;
+    margin-top: 10px;
+    word-spacing: 10px;
+    
+}
+.follow i{
+    font-size: 20px;
+}
+.copy{
+    margin-bottom: 0px;
+}
